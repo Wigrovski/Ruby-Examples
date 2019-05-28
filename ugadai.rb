@@ -19,6 +19,7 @@ def check_number (test, number)
 
 
 
+
 test = gets.to_i
 check_number(test, number)
 test = gets.to_i
