@@ -1,5 +1,5 @@
 number = rand(16)
-puts 'загадано число от 0 до 15, отгадайте какое?'
+puts 'Загадано число от 0 до 15, отгадайте какое?'
 def check_number (test, number)
     if test == number
       puts 'Поздравляю, ты угадал'
