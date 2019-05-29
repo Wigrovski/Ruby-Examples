@@ -1,6 +1,3 @@
-
-
-
 def get_latters
   slovo = ARGV[0]
   if (slovo == nil || slovo == "")
