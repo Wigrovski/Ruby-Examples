@@ -5,7 +5,7 @@ class Game
       @errors = 0
       @bad_latters = []
       @good_latters = []
-      @status
+      @status = 0
   end
   def get_latters(slovo)
     if (slovo == nil || slovo == "")
