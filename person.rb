@@ -1,8 +1,10 @@
 class Person
+    attr_accessor :film
     def initialize(first_name, second_name, age)
       @first_name = first_name
       @second_name = second_name
       @age = age
+      @film = nil
     end
 
     def old?
