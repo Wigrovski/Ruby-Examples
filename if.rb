@@ -27,7 +27,7 @@
     f = eval("#{operand_1}#{operator}#{operand_2}").to_s.rjust(10)
     puts f
     f = f.to_i
-    if f % 2 == 0
+    if f.even?
       puts "Это число четное"
     else
       puts "Это число нечетное"
