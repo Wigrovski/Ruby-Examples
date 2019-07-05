@@ -1,7 +1,13 @@
+puts "Введите имя героя"
 hero = STDIN.gets.chomp
-  case hero
-  when 'batman'
-    puts "Jocker"
-  when  'buratino'
-    puts 'Karabas'
-  end
+antiheros = {
+  "batman" => "Jocker",
+  "buratino" => "Karabas" }
+
+antiheros["tom"] = "jerry"
+if antiheros.has_key?(hero)
+  puts "Для героя #{hero} антигерой #{antiheros[hero]}"
+else
+  puts "Нет такого героя"
+
+end
