@@ -9,9 +9,14 @@ end
 puts 'How many dice?'
 number = gets.to_i
 puts
+s = 0
 
 number.times do
   # Вызываем метод вращения кубика
   show_rolling_die
-  puts rand(6) + 1
+  dic = rand(6) + 1
+  puts dic
+  s += dic
 end
+
+puts s
