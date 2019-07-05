@@ -1,7 +1,7 @@
 puts 'Введите первое число: '
-first = gets.chomp.to_i
+first = gets.chomp.to_f
 puts 'Введите второе число: '
-second = gets.chomp.to_i
+second = gets.chomp.to_f
 puts 'Введите действие: + / - *'
 action = gets.chomp.to_s
 puts 'Результат: '
@@ -11,11 +11,12 @@ case action
 
 
   when  '/'
-  begin
+#Проверка деления на ноль
+  #begin
     puts first / second
-  rescue ZeroDivisionError
-    puts 'На ноль делить нельзя'
-  end
+  #rescue ZeroDivisionError
+  #  puts 'На ноль делить нельзя'
+  #end
 
   when '-'
     puts first - second
