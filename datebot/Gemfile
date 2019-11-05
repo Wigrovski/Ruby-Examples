@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+#git_source(:github) {|telegram-bot-ruby| "https://github.com/atipugin/telegram-bot-ruby" }
+
+gem "telegram-bot-ruby"
